@@ -20,7 +20,11 @@ module.exports = function (gulp) {
 
     setTimeout(function () {
         inquirer.prompt([question], function( answers ) {
-            gulp.start(answers.gulp);
+            if (answers.gulp === '-- exit --') {
+                process.exit(0);
+            }else {
+                gulp.start(answers.gulp);
+            }
         });
     });
 
