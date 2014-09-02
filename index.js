@@ -10,7 +10,7 @@ module.exports = function (gulp) {
             choices.push(key);
         }
     }
-    choices.push("exit");
+    choices.push("-- exit --");
     var question = {
         type: "list",
         name: "gulp",
