@@ -21,8 +21,6 @@ gulp.task('default', function () {
 });
 ```
 
-## API
-
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
