@@ -20,6 +20,7 @@ gulp.task('default', function () {
     menu(this);
 });
 ```
+![Executing plugin example] (https://raw.githubusercontent.com/iamdenny/gulp-menu/master/images/sample.png)
 
 ## License
 
