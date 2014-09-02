@@ -9,8 +9,7 @@ require("mocha");
 
 delete require.cache[require.resolve("../")];
 
-var gutil = require("gulp-util"),
-	menu = require("../"),
+var menu = require("../"),
     gulp = require("gulp");
 
 describe("gulp-menu", function () {
